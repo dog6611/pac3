@@ -1,0 +1,30 @@
+RegisterLuaAnimation('arm no move', {
+	FrameData = {
+		{
+			BoneInfo = {
+			},
+			FrameRate = 1
+		},
+		{
+			BoneInfo = {
+			},
+			FrameRate = 1
+		},
+		{
+			BoneInfo = {
+			},
+			FrameRate = 1
+		},
+		{
+			BoneInfo = {
+			},
+			FrameRate = 1
+		},
+		{
+			BoneInfo = {
+			},
+			FrameRate = 1
+		}
+	},
+	Type = TYPE_GESTURE
+})
