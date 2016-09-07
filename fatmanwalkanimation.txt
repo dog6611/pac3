@@ -1,0 +1,37 @@
+RegisterLuaAnimation('fatmanwalking', {
+	FrameData = {
+		{
+			BoneInfo = {
+				['ValveBiped.Bip01_Pelvis'] = {
+					RU = 7
+				}
+			},
+			FrameRate = 1
+		},
+		{
+			BoneInfo = {
+				['ValveBiped.Bip01_Pelvis'] = {
+					RU = -7
+				}
+			},
+			FrameRate = 1
+		},
+		{
+			BoneInfo = {
+				['ValveBiped.Bip01_Pelvis'] = {
+					RU = 7
+				}
+			},
+			FrameRate = 1
+		},
+		{
+			BoneInfo = {
+				['ValveBiped.Bip01_Pelvis'] = {
+					RU = -7
+				}
+			},
+			FrameRate = 1
+		}
+	},
+	Type = TYPE_GESTURE
+})
